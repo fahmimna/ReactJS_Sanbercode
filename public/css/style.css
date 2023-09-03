@@ -1,0 +1,40 @@
+/* style.css */
+
+/* Selector untuk artikel di dalam container__article-list */
+.container__article-list .article {
+    margin-bottom: 20px; /* Untuk memberi ruang antar artikel */
+    padding-bottom: 20px; /* Untuk memberi ruang di bawah artikel */
+    border-bottom: 10px solid #e0e0e0; /* Garis bawah di setiap artikel */
+}
+
+/* Selector untuk judul artikel */
+.container__article-list .article h3 {
+    margin-bottom: 10px; /* Memberi ruang antara judul dan teks artikel */
+}
+
+
+/* Selector untuk tombol di bagian bawah container */
+.container__bottom button {
+    width: 100%; /* Tombol mengambil lebar 100% dari kontainer */
+    background-color: #A149FA;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    
+    /* Tambahkan efek bayangan */
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* Opsi hover untuk efek saat kursor diarahkan ke tombol */
+.container__bottom button:hover {
+    background-color: #8B30D9;
+    /* Mengubah efek bayangan saat hover */
+    box-shadow: 8px 8px 5px 0px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 8px 8px 5px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 8px 8px 5px 0px rgba(0, 0, 0, 0.2);
+}
